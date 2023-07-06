@@ -1,0 +1,35 @@
+(footprint "SNES_CONTROLLER_PORT_FEMALE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62214A30)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -1.905) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2eaad020-e4dd-4a71-9228-184494646438)
+  )
+  (fp_text value "SNES_CONTROLLER_PORT_FEMALE" (at 0 -0.5) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp efcf39f2-7c86-41cb-bd1d-49df469e3717)
+  )
+  (fp_line (start 21.59 20.32) (end -21.59 20.32) (layer "F.SilkS") (width 0.12) (tstamp 26f3a847-2f8c-475d-8985-d8f7a060a45c))
+  (fp_line (start 21.59 0) (end 21.59 20.32) (layer "F.SilkS") (width 0.12) (tstamp 365fc50a-e3ff-45f3-814a-ed451a46f019))
+  (fp_line (start -21.59 0) (end 21.59 0) (layer "F.SilkS") (width 0.12) (tstamp bcb512cd-9503-4c01-9319-aba6c93be303))
+  (fp_line (start -21.59 20.32) (end -21.59 0) (layer "F.SilkS") (width 0.12) (tstamp e0dce488-a283-45f0-a5cc-28dc28e7bdee))
+  (pad "1" thru_hole circle (at -13.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp f1543bc4-0e1c-49aa-bf2f-79ab074b70e7))
+  (pad "2" thru_hole circle (at -9.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp 71c440d2-4bf9-4ef3-b58a-136d41e01196))
+  (pad "3" thru_hole circle (at -5.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp bccfe90f-9313-4b54-9272-3a86fca56de8))
+  (pad "4" thru_hole circle (at -1.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp c3070c81-443a-4fc8-a13e-7af1eef6bd9c))
+  (pad "5" thru_hole circle (at 5.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp 51654c31-d8e9-476c-b2cb-c4e0e3a8f284))
+  (pad "6" thru_hole circle (at 9.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp 38fd3618-343e-45b6-b446-de124ec812e0))
+  (pad "7" thru_hole circle (at 13.28 2.54) (size 2.924 2.924) (drill 1.4) (layers *.Cu *.Mask) (tstamp 19bf4e9b-ab0c-4aec-b137-73472f15d03d))
+  (group "" (id 013c1ee3-05f3-45cb-9c1f-4591afc54196)
+    (members
+      19bf4e9b-ab0c-4aec-b137-73472f15d03d
+      38fd3618-343e-45b6-b446-de124ec812e0
+      51654c31-d8e9-476c-b2cb-c4e0e3a8f284
+      71c440d2-4bf9-4ef3-b58a-136d41e01196
+      bccfe90f-9313-4b54-9272-3a86fca56de8
+      c3070c81-443a-4fc8-a13e-7af1eef6bd9c
+      f1543bc4-0e1c-49aa-bf2f-79ab074b70e7
+    )
+  )
+)
