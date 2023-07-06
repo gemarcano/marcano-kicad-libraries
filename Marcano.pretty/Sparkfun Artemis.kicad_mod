@@ -15,6 +15,8 @@
   )
   (fp_rect (start -6.75 -5.25) (end 8.75 5.25)
     (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 91351406-f7b3-4ffd-999e-0c75e4709b99))
+  (fp_rect (start -7 -5.5) (end 9 5.5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp cb90bdaa-d504-4cc5-a558-8e93c028d56f))
   (pad "1" smd rect (at 5 -4.5) (size 0.4 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.15) (thermal_bridge_angle 45) (tstamp f6b475ee-d84f-4e96-85a0-18cbc0596880))
   (pad "2" smd rect (at 4.5 -3.7) (size 0.4 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
