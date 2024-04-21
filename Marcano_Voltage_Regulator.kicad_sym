@@ -504,7 +504,7 @@
 					(type background)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "V_{OUT}"
@@ -558,7 +558,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "V_{IN}"
